@@ -1,0 +1,19 @@
+<div class="container-divider"></div>
+<div class="container">
+  
+  <h1>
+    {{t 'submit_a_request'}}
+    <span class="follow-up-hint">
+      {{follow_up}}
+    </span>
+  </h1>
+
+  <div id="main-content" class="form">
+    <p>Use this form to submit a support ticket. This could be a data curation request, a bug report, a sales inquiry, feedback about any part of OpenAlex, or any question not addressed in our <a href="https://help.openalex.org" target="_blank" rel="noopener noreferrer">documentation</a>.</p>
+    <p>You can also send an email to <a href="mailto:support@openalex.org">support@openalex.org</a>, as an alternative to using this form.</p>
+    <p>Or, you can bring your question to one of our <a href="https://help.openalex.org/events/open-houses" target="_blank" rel="noopener noreferrer">weekly virtual Open Houses</a>, and we can address it in person!</p>
+    <p>Please be as specific as possible in your request. For example, if you are seeing incorrect data in certain works, provide IDs for that work, details of the problem, and, when possible, URLs or screenshots.</p>
+    <p>If you're looking to correct data for your author profile (such as merging duplicate author profiles, or claiming works that you have authored), please note that we are currently pausing work on these individual tickets to focus on broad improvements and develop a smoother system for corrections. <a href="https://groups.google.com/g/openalex-users/c/0ylCHAuSZso" target="_blank" rel="noopener noreferrer">See here for more information about this.</a> If you have a data curation request that you think is urgent, submit a request here with "urgent" in the subject line, and we will get in touch with you.</p>
+    {{request_form wysiwyg=true}}
+  </div>
+</div>
